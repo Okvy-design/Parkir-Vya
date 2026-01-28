@@ -1,4 +1,6 @@
 # CodeIgniter 4 Framework
+ini adalah tugas ku 
+OKVI ANGGREANI - PARKIR ADA AJA MALL
 
 ## What is CodeIgniter?
 
