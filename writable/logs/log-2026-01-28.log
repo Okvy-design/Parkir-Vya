@@ -1,0 +1,346 @@
+CRITICAL - 2026-01-28 13:36:02 --> Undefined variable $lantai
+in APPPATH\Views\parkir_view.php on line 36.
+ 1 APPPATH\Views\parkir_view.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lantai', 'C:\\xampp\\htdocs\\parkir_ada-aja\\app\\Views\\parkir_view.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\parkir_ada-aja\\app\\Views\\parkir_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('parkir_view', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('parkir_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\parkir_ada-aja\\public\\index.php')
+CRITICAL - 2026-01-28 13:38:36 --> Undefined variable $lantai
+in APPPATH\Views\parkir_view.php on line 37.
+ 1 APPPATH\Views\parkir_view.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lantai', 'C:\\xampp\\htdocs\\parkir_ada-aja\\app\\Views\\parkir_view.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\parkir_ada-aja\\app\\Views\\parkir_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('parkir_view', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('parkir_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\parkir_ada-aja\\public\\index.php')
+CRITICAL - 2026-01-28 13:38:38 --> Undefined variable $lantai
+in APPPATH\Views\parkir_view.php on line 37.
+ 1 APPPATH\Views\parkir_view.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lantai', 'C:\\xampp\\htdocs\\parkir_ada-aja\\app\\Views\\parkir_view.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\parkir_ada-aja\\app\\Views\\parkir_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('parkir_view', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('parkir_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\parkir_ada-aja\\public\\index.php')
+CRITICAL - 2026-01-28 13:39:08 --> Undefined variable $lantai
+in APPPATH\Views\parkir_view.php on line 37.
+ 1 APPPATH\Views\parkir_view.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $lantai', 'C:\\xampp\\htdocs\\parkir_ada-aja\\app\\Views\\parkir_view.php', 37)
+ 2 SYSTEMPATH\View\View.php(213): include('C:\\xampp\\htdocs\\parkir_ada-aja\\app\\Views\\parkir_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('parkir_view', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('parkir_view')
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\parkir_ada-aja\\public\\index.php')
+ERROR - 2026-01-28 13:54:18 --> mysqli_sql_exception: Unknown table 'adaaja_parkir.kartu_rfid' in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `kar...', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `kar...')
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `kar...')
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `kar...')
+#4 C:\xampp\htdocs\parkir_ada-aja\app\Database\Migrations\2026-01-28-132829_CreateParkingTables.php(63): CodeIgniter\Database\Forge->dropTable('kartu_rfid')
+#5 C:\xampp\htdocs\parkir_ada-aja\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateParkingTables->down()
+#6 C:\xampp\htdocs\parkir_ada-aja\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\xampp\htdocs\parkir_ada-aja\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\parkir_ada-aja\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\xampp\htdocs\parkir_ada-aja\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\parkir_ada-aja\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\parkir_ada-aja\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+ERROR - 2026-01-28 13:54:18 --> mysqli_sql_exception: Unknown table 'adaaja_parkir.kendaraan_jenis' in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(295): mysqli->query('DROP TABLE `ken...', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DROP TABLE `ken...')
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DROP TABLE `ken...')
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\Forge.php(637): CodeIgniter\Database\BaseConnection->query('DROP TABLE `ken...')
+#4 C:\xampp\htdocs\parkir_ada-aja\app\Database\Migrations\2026-01-28-132829_CreateParkingTables.php(65): CodeIgniter\Database\Forge->dropTable('kendaraan_jenis')
+#5 C:\xampp\htdocs\parkir_ada-aja\system\Database\MigrationRunner.php(877): App\Database\Migrations\CreateParkingTables->down()
+#6 C:\xampp\htdocs\parkir_ada-aja\system\Database\MigrationRunner.php(299): CodeIgniter\Database\MigrationRunner->migrate('down', Object(stdClass))
+#7 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Database\MigrateRollback.php(92): CodeIgniter\Database\MigrationRunner->regress(0)
+#8 C:\xampp\htdocs\parkir_ada-aja\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRollback->run(Array)
+#9 C:\xampp\htdocs\parkir_ada-aja\system\CLI\BaseCommand.php(114): CodeIgniter\CLI\Commands->run('migrate:rollbac...', Array)
+#10 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Database\MigrateRefresh.php(84): CodeIgniter\CLI\BaseCommand->call('migrate:rollbac...', Array)
+#11 C:\xampp\htdocs\parkir_ada-aja\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\MigrateRefresh->run(Array)
+#12 C:\xampp\htdocs\parkir_ada-aja\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('migrate:refresh', Array)
+#13 C:\xampp\htdocs\parkir_ada-aja\spark(97): CodeIgniter\CLI\Console->run()
+#14 {main}
+INFO - 2026-01-28 14:02:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 14:03:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-28 14:05:03 --> Invalid file: "masuk.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('masuk.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('masuk', [], true)
+ 3 APPPATH\Controllers\Parkir.php(18): view('masuk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Parkir->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\parkir_ada-aja\\public\\index.php')
+INFO - 2026-01-28 14:05:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-28 14:27:18 --> Error connecting to the database: mysqli_sql_exception: Unknown database 'adaaja_parkir' in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('p:localhost', 'root', Object(SensitiveParameterValue), 'adaaja_parkir', 3306, '', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\parkir_ada-aja\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\parkir_ada-aja\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\parkir_ada-aja\app\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\parkir_ada-aja\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Unknown database 'adaaja_parkir' in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(true)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\parkir_ada-aja\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#5 C:\xampp\htdocs\parkir_ada-aja\app\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->findAll()
+#6 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\parkir_ada-aja\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2026-01-28 14:27:18 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'adaaja_parkir'
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `lantai`', [], false)
+ 3 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 5 APPPATH\Controllers\Dashboard.php(17): CodeIgniter\BaseModel->findAll()
+ 6 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\parkir_ada-aja\\public\\index.php')
+ERROR - 2026-01-28 14:27:39 --> mysqli_sql_exception: Unknown column 'waktu_masuk' in 'where clause' in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\parkir_ada-aja\system\Model.php(606): CodeIgniter\Database\BaseBuilder->countAllResults(true)
+#5 C:\xampp\htdocs\parkir_ada-aja\app\Controllers\Dashboard.php(18): CodeIgniter\Model->countAllResults()
+#6 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\parkir_ada-aja\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2026-01-28 14:27:39 --> mysqli_sql_exception: Unknown column 'total_biaya' in 'field list' in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT SUM(`tot...', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`tot...')
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`tot...')
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`tot...', Array, false)
+#4 C:\xampp\htdocs\parkir_ada-aja\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\parkir_ada-aja\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\parkir_ada-aja\app\Controllers\Dashboard.php(20): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+#8 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\parkir_ada-aja\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2026-01-28 14:27:39 --> Call to a member function getFirstRow() on bool
+in SYSTEMPATH\Model.php on line 268.
+ 1 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 2 APPPATH\Controllers\Dashboard.php(20): CodeIgniter\BaseModel->first()
+ 3 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 4 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\parkir_ada-aja\\public\\index.php')
+CRITICAL - 2026-01-28 14:37:27 --> Invalid file: "master/v_lantai.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('master/v_lantai.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('master/v_lantai', [], true)
+ 3 APPPATH\Controllers\Master.php(10): view('master/v_lantai', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Master->lantai()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\parkir_ada-aja\\public\\index.php')
+INFO - 2026-01-28 14:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 15:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-28 15:21:07 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_parkir`.`transaksi_parkir`, CONSTRAINT `transaksi_parkir_ibfk_2` FOREIGN KEY (`id_lantai`) REFERENCES `lantai` (`id_lantai`)) in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\parkir_ada-aja\app\Controllers\Master.php(49): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(934): App\Controllers\Master->hapus_lantai('2')
+#6 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#7 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\parkir_ada-aja\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2026-01-28 15:21:13 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_parkir`.`transaksi_parkir`, CONSTRAINT `transaksi_parkir_ibfk_2` FOREIGN KEY (`id_lantai`) REFERENCES `lantai` (`id_lantai`)) in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\parkir_ada-aja\app\Controllers\Master.php(49): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(934): App\Controllers\Master->hapus_lantai('2')
+#6 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#7 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\parkir_ada-aja\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2026-01-28 15:21:28 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`db_parkir`.`transaksi_parkir`, CONSTRAINT `transaksi_parkir_ibfk_2` FOREIGN KEY (`id_lantai`) REFERENCES `lantai` (`id_lantai`)) in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(295): mysqli->query('DELETE FROM `la...', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `la...')
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `la...')
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseBuilder.php(2791): CodeIgniter\Database\BaseConnection->query('DELETE FROM `la...', Array, false)
+#4 C:\xampp\htdocs\parkir_ada-aja\app\Controllers\Master.php(49): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(934): App\Controllers\Master->hapus_lantai('2')
+#6 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+#7 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\parkir_ada-aja\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+INFO - 2026-01-28 15:32:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-28 15:38:17 --> Invalid file: "v_parkir_keluar.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_parkir_keluar.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_parkir_keluar', [], true)
+ 3 APPPATH\Controllers\Parkir.php(60): view('v_parkir_keluar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Parkir->keluar()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\parkir_ada-aja\\public\\index.php')
+CRITICAL - 2026-01-28 15:45:43 --> Invalid file: "v_dashboard.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_dashboard.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_dashboard', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(24): view('v_dashboard', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Dashboard->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\parkir_ada-aja\\public\\index.php')
+ERROR - 2026-01-28 15:46:10 --> mysqli_sql_exception: Unknown column 'total_biaya' in 'field list' in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `transak...', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transak...')
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transak...')
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `transak...', Array, false)
+#4 C:\xampp\htdocs\parkir_ada-aja\app\Controllers\Parkir.php(61): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(934): App\Controllers\Parkir->proses_keluar()
+#6 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#7 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\parkir_ada-aja\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+INFO - 2026-01-28 15:46:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 15:46:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-28 16:05:39 --> mysqli_sql_exception: Unknown column 'total_biaya' in 'field list' in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `transak...', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transak...')
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transak...')
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `transak...', Array, false)
+#4 C:\xampp\htdocs\parkir_ada-aja\app\Controllers\Parkir.php(57): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(934): App\Controllers\Parkir->proses_keluar()
+#6 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#7 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\parkir_ada-aja\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+INFO - 2026-01-28 16:05:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-28 16:05:53 --> mysqli_sql_exception: Unknown column 'total_biaya' in 'field list' in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `transak...', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transak...')
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transak...')
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `transak...', Array, false)
+#4 C:\xampp\htdocs\parkir_ada-aja\app\Controllers\Parkir.php(57): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(934): App\Controllers\Parkir->proses_keluar()
+#6 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#7 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\parkir_ada-aja\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+INFO - 2026-01-28 16:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-28 16:06:47 --> mysqli_sql_exception: Unknown column 'total_biaya' in 'field list' in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `transak...', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transak...')
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transak...')
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `transak...', Array, false)
+#4 C:\xampp\htdocs\parkir_ada-aja\app\Controllers\Parkir.php(57): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(934): App\Controllers\Parkir->proses_keluar()
+#6 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#7 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\parkir_ada-aja\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+INFO - 2026-01-28 16:06:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-28 16:12:54 --> mysqli_sql_exception: Unknown column 'total_biaya' in 'field list' in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `transak...', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transak...')
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transak...')
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `transak...', Array, false)
+#4 C:\xampp\htdocs\parkir_ada-aja\app\Controllers\Parkir.php(58): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(934): App\Controllers\Parkir->proses_keluar()
+#6 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#7 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\parkir_ada-aja\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+INFO - 2026-01-28 16:12:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2026-01-28 16:21:13 --> mysqli_sql_exception: Unknown column 'total_biaya' in 'field list' in C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\parkir_ada-aja\system\Database\MySQLi\Connection.php(295): mysqli->query('UPDATE `transak...', 0)
+#1 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `transak...')
+#2 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `transak...')
+#3 C:\xampp\htdocs\parkir_ada-aja\system\Database\BaseBuilder.php(2476): CodeIgniter\Database\BaseConnection->query('UPDATE `transak...', Array, false)
+#4 C:\xampp\htdocs\parkir_ada-aja\app\Controllers\Parkir.php(58): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(934): App\Controllers\Parkir->proses_keluar()
+#6 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Parkir))
+#7 C:\xampp\htdocs\parkir_ada-aja\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\parkir_ada-aja\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\parkir_ada-aja\system\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+INFO - 2026-01-28 16:21:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2026-01-28 16:25:49 --> Undefined variable $db
+in APPPATH\Controllers\Master.php on line 45.
+ 1 APPPATH\Controllers\Master.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\parkir_ada-aja\\app\\Controllers\\Master.php', 45)
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Master->hapus_lantai('5')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Master))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\xampp\\htdocs\\parkir_ada-aja\\public\\index.php')
+INFO - 2026-01-28 16:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 16:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 16:34:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2026-01-28 16:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
